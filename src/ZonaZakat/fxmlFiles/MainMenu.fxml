@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZonaZakat.controller.MainMenu">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="594.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../BackgroundZZ.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="247.0" layoutY="324.0" mnemonicParsing="false" onAction="#zakatFitrah" prefHeight="25.0" prefWidth="124.0" text="Zakat Fitrah">
+         <font>
+            <Font name="Tw Cen MT" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="323.0" mnemonicParsing="false" onAction="#zakatMal" prefHeight="29.0" prefWidth="124.0" text="Zakat Mal">
+         <font>
+            <Font name="Tw Cen MT" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="504.0" layoutY="14.0" mnemonicParsing="false" onAction="#informasi" prefHeight="25.0" prefWidth="74.0" text="Informasi">
+         <font>
+            <Font name="Tw Cen MT" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

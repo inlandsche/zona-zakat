@@ -1,0 +1,5 @@
+Qolandar Annuri|Ajibarang Wetan, RT 01/08|Beras|3.0
+Qolandar |Ajibarang|Beras|3.0
+Qolandar Annuri|Ajibarang Wetan RT 01/09|Uang|100000.0
+Anonim|Darmakradenan RT 01/08|Emas|10.0
+Test|Test|Emas|22.7
